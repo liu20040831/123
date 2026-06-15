@@ -1,0 +1,91 @@
+CityData(
+    name: '聊城',
+    subtitle: '江北水城 · 文化之城',
+    titleTag: '文化之城',
+    description: '聊城有运河文化、古城风貌与水城特色，古运河穿城而过，千年历史积淀形成了独特的人文景观，是山东文化旅游的重要目的地。',
+    color: const Color(0xFFE65100),
+    secondaryColor: const Color(0xFFFF9800),
+    icon: Icons.account_balance,
+    heroEmoji: '🏛️',
+    imageUrl:
+    'https://p5-flow-imagex-sign.byteimg.com/labis/image/b3c59df97e8e23a517010c6734097aba~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264654&x-signature=%2Bu62%2F1wyG6%2BNa%2BAWvh9pbDESit8%3D',
+    tags: ['江北水城', '运河文化', '古城风貌', '历史探索', '人文体验'],
+    attractions: const [
+      Attraction(
+        name: '光岳楼',
+        description:
+        '中国现存最高大、最古老的木构楼阁之一，建于明洪武年间，是聊城的城市标志，登楼可俯瞰整个古城水城格局。',
+        rating: 5,
+        suitableFor: ['古建筑爱好者', '历史文化', '拍照', '登高望远'],
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/isp-i18n-media/image/24f605bc84e94f0b923b5b4b11b55b62~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264656&x-signature=bg%2FRbo2ubC%2FVSpXmj4dFOyWMZAo%3D',
+        emoji: '🗼',
+      ),
+      Attraction(
+        name: '东昌湖',
+        description:
+        '中国江北最大的城市内湖，古运河与护城河共同形成了独特的水城景观，湖光倒影、古城相映，夜景尤为迷人。',
+        rating: 5,
+        suitableFor: ['夜景摄影', '城市漫步', '休闲', '情侣'],
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/d7d4fc9718f4cf30e330b037e9420f1d~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264658&x-signature=caUI9BMieiATtJpeiZ5ottZIFv4%3D',
+        emoji: '🌙',
+      ),
+      Attraction(
+        name: '山陕会馆',
+        description: '清代山西、陕西商人在聊城建造的商业会馆，建筑雕刻精美绝伦，体现了明清商贸文化与建筑艺术的完美结合。',
+        rating: 4,
+        suitableFor: ['历史研究', '建筑艺术', '文化探索', '摄影'],
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/isp-i18n-media/image/cbfbe71ac12c69df35a28b858a1d83a0~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264659&x-signature=vfADkAQeYUib%2Be6LiVCT55zSPSM%3D',
+        emoji: '🏮',
+      ),
+    ],
+    foods: const [
+      Food(
+        name: '魏氏熏鸡',
+        area: '东昌府区·古城美食街',
+        rating: 4,
+        price: 38,
+        description: '聊城百年传统名吃，以独特熏制工艺制作，表皮金黄酥脆，肉质鲜嫩入味，是馈赠亲友的特色伴手礼。',
+        emoji: '🍗',
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/tos-cn-i-6w9my0ksvp/93ada655e39d442e8badea0c49f7d7b2~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264663&x-signature=HNCIFFuik3Px398vGxYwTX%2FjFnI%3D',
+      ),
+      Food(
+        name: '呱嗒',
+        area: '古城区·早市',
+        rating: 4,
+        price: 15,
+        description: '聊城独创的传统早点，形如月牙，外皮酥脆，内馅丰富，有肉馅、鸡蛋等多种口味，是体验聊城人间烟火的最佳方式。',
+        emoji: '🥙',
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/dc3bcb765b90ec898a2aa2944ff4f287~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264662&x-signature=zObxXytaoNXZJIM8VNK6cCMVbaQ%3D',
+      ),
+      Food(
+        name: '高唐驴肉火烧',
+        area: '高唐县·老字号',
+        rating: 5,
+        price: 22,
+        description: '选用上等驴肉，慢火烹制，肉质鲜嫩多汁，配以酥脆火烧，是聊城最具地方特色的传统美食之一。',
+        emoji: '🫓',
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/4bbb03cea97eab805e0d09dc30145d38~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154407D40E9E53A16A1B8A4D56&rrcfp=cee388b0&x-expires=2096264665&x-signature=%2FnWgATQaV2ESnD3CQ0OZkUYlSTI%3D',
+      ),
+    ],
+    routes: const [
+      RoutePlan(
+        title: '聊城古城文化一日游',
+        items: [
+          RouteItem(time: '08:00', place: '早市·呱嗒早餐体验', icon: '🌅'),
+          RouteItem(time: '09:30', place: '光岳楼·登高览古城', icon: '🗼'),
+          RouteItem(time: '11:30', place: '古城特色午餐', icon: '🍽️'),
+          RouteItem(time: '13:30', place: '山陕会馆·建筑艺术', icon: '🏮'),
+          RouteItem(time: '15:30', place: '东昌湖·水上游览', icon: '⛵'),
+          RouteItem(time: '18:30', place: '古城夜市·魏氏熏鸡', icon: '🌙'),
+          RouteItem(time: '20:00', place: '运河夜游·古城灯光秀', icon: '✨'),
+        ],
+      ),
+    ],
+  ),
+];
